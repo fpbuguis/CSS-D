@@ -55,28 +55,10 @@ class AuthenticatedSessionController extends Controller
      * @param  \Laravel\Fortify\Http\Requests\LoginRequest  $request
      * @return mixed
      */
-    // public function store(LoginRequest $request)
-    // {
-    //     return $this->loginPipeline($request)->then(function ($request) {
-    //         return app(LoginResponse::class);
-    //     });
-    // }
     public function store(LoginRequest $request)
     {
-        // Process the login request using the pipeline
         return $this->loginPipeline($request)->then(function ($request) {
-            // Get the authenticated user
-            $user = $request->user();
-
-            // Check the user's role and redirect accordingly
-            if ($user->role_id == 2) {
-                return redirect('/dashboard');  // Redirect to dashboard for role_id 2
-            } elseif ($user->role_id == 3) {
-                return redirect('/symptomsreport');  // Redirect to symptoms report for role_id 3
-            }
-
-            // Default redirection (if needed)
-            return redirect('/home');  // Fallback for other roles
+            return app(LoginResponse::class);
         });
     }
 
