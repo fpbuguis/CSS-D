@@ -27,8 +27,6 @@ class DNSCheckValidation implements EmailValidation
         'invalid',
         'localhost',
 
-        'junction.proxy.rlwy.net',
-
         // mDNS
         'local',
 
