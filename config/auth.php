@@ -101,6 +101,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Email Verification Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Here you may define settings related to email verification, such as the
+    | expiration time for the verification link. This security feature keeps
+    | verification tokens short-lived for improved security.
+    |
+    */
+
+    'verification' => [
+        'expire' => 60, // Minutes before verification link expires
+        'throttle' => 60, // Throttle time in seconds to prevent spam
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Password Confirmation Timeout
     |--------------------------------------------------------------------------
     |
