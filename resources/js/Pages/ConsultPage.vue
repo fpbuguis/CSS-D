@@ -101,17 +101,17 @@ const fetchPatientDiseaseProfile = async () => {
     }
 };
 
-const fetchPatientTreatmentInfo = async () => {
-    try {
-        let response = await axios.get(`/api/patient/${patientId}/treatments`);
-        selectedPatient.value = response.data;
-        console.log("Treatment Details: ", selectedPatient.value);
+// const fetchPatientTreatmentInfo = async () => {
+//     try {
+//         let response = await axios.get(`/api/patient/${patientId}/treatments`);
+//         selectedPatient.value = response.data;
+//         console.log("Treatment Details: ", selectedPatient.value);
 
 
-    } catch (error) {
-        console.error('Failed to fetch patient:', error);
-    }
-};
+//     } catch (error) {
+//         console.error('Failed to fetch patient:', error);
+//     }
+// };
 
 const fetchPatientCheckup = async () => {
     try {
@@ -351,7 +351,7 @@ const handleClick = (href) => {
                 <div class="info-right">
                     <p>
                         <span>Patient Status: </span>
-                        <span class="display" v-if="patientId  && selectedCheckup">{{  selectedCheckup.checkup.checkup_patientStatus ?? '' }}</span><span class="display" v-else></span>
+                        <!-- <span class="display" v-if="patientId  && selectedCheckup">{{  selectedCheckup.checkup.checkup_patientStatus ?? '' }}</span><span class="display" v-else></span> -->
                     </p>
 
                     <p>
