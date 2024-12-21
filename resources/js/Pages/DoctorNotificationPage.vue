@@ -156,8 +156,8 @@ const unreadMessageCount = computed(() => {
 const jsonString = ref("");
 const pdfUrl = ref(null);
 // const baseUrl = 'http://127.0.0.1:8000/storage/';
-const baseUrl = 'https://css-d-production.up.railway.app/storage/' ;
-// const baseUrl = `${import.meta.env.APP_URL}/storage/`;
+// const baseUrl = 'https://css-d-production.up.railway.app/storage/' ;
+const baseUrl = `${import.meta.env.APP_URL}/storage/`;
 
 const parseJson = (jsonString) => {
     const filePath = JSON.parse(jsonString)[0];
