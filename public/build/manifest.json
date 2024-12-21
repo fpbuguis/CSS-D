@@ -1,0 +1,1958 @@
+{
+  "Alert.css": {
+    "file": "assets/Alert-80163d59.css",
+    "src": "Alert.css"
+  },
+  "Footer.css": {
+    "file": "assets/Footer-1500818a.css",
+    "src": "Footer.css"
+  },
+  "Header.css": {
+    "file": "assets/Header-ce85496d.css",
+    "src": "Header.css"
+  },
+  "Layout.css": {
+    "file": "assets/Layout-b917f39c.css",
+    "src": "Layout.css"
+  },
+  "_ActionMessage-13807027.js": {
+    "file": "assets/ActionMessage-13807027.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_Alert-c8b905ec.js": {
+    "css": [
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/Alert-c8b905ec.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_AppLayout-76d6eb27.js": {
+    "file": "assets/AppLayout-76d6eb27.js",
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ]
+  },
+  "_AuthenticationCard-12f7f7f4.js": {
+    "file": "assets/AuthenticationCard-12f7f7f4.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_AuthenticationCardLogo-7ad0f100.js": {
+    "file": "assets/AuthenticationCardLogo-7ad0f100.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_Checkbox-51e521f7.js": {
+    "file": "assets/Checkbox-51e521f7.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_DangerButton-b70a49e1.js": {
+    "file": "assets/DangerButton-b70a49e1.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_DialogModal-7d73c483.js": {
+    "file": "assets/DialogModal-7d73c483.js",
+    "imports": [
+      "_SectionTitle-1199d010.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_DropdownLink-7a8a95ab.js": {
+    "file": "assets/DropdownLink-7a8a95ab.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_Footer-d0c101dc.js": {
+    "css": [
+      "assets/Footer-1500818a.css"
+    ],
+    "file": "assets/Footer-d0c101dc.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_FormSection-d01b3122.js": {
+    "file": "assets/FormSection-d01b3122.js",
+    "imports": [
+      "resources/js/app.js",
+      "_SectionTitle-1199d010.js"
+    ]
+  },
+  "_Header-f21fcd2a.js": {
+    "css": [
+      "assets/Header-ce85496d.css"
+    ],
+    "file": "assets/Header-f21fcd2a.js",
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ]
+  },
+  "_InputError-c4a7bcc1.js": {
+    "file": "assets/InputError-c4a7bcc1.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_InputLabel-4a24d642.js": {
+    "file": "assets/InputLabel-4a24d642.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_PrimaryButton-f8b31512.js": {
+    "file": "assets/PrimaryButton-f8b31512.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_SecondaryButton-d35afa0b.js": {
+    "file": "assets/SecondaryButton-d35afa0b.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_SectionBorder-87bac081.js": {
+    "file": "assets/SectionBorder-87bac081.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_SectionTitle-1199d010.js": {
+    "file": "assets/SectionTitle-1199d010.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_TextInput-1febd58e.js": {
+    "file": "assets/TextInput-1febd58e.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "__plugin-vue_export-helper-c27b6911.js": {
+    "file": "assets/_plugin-vue_export-helper-c27b6911.js"
+  },
+  "_column.esm-ac9822a2.js": {
+    "file": "assets/column.esm-ac9822a2.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_dialog.esm-7590c070.js": {
+    "file": "assets/dialog.esm-7590c070.js",
+    "imports": [
+      "_column.esm-ac9822a2.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_home-13a42f14.js": {
+    "assets": [
+      "assets/home-540c4d15.png"
+    ],
+    "file": "assets/home-13a42f14.js"
+  },
+  "_index-ee108f99.js": {
+    "file": "assets/index-ee108f99.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_jspdf.es.min-3cebb56b.js": {
+    "dynamicImports": [
+      "node_modules/html2canvas/dist/html2canvas.esm.js",
+      "node_modules/dompurify/dist/purify.es.js",
+      "node_modules/canvg/lib/index.es.js"
+    ],
+    "file": "assets/jspdf.es.min-3cebb56b.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_vuecal-b9634972.js": {
+    "css": [
+      "assets/vuecal-43990e2b.css"
+    ],
+    "dynamicImports": [
+      "node_modules/vue-cal/dist/i18n/en.es.js",
+      "node_modules/vue-cal/dist/i18n/ar.es.js",
+      "node_modules/vue-cal/dist/i18n/bg.es.js",
+      "node_modules/vue-cal/dist/i18n/bn.es.js",
+      "node_modules/vue-cal/dist/i18n/bs.es.js",
+      "node_modules/vue-cal/dist/i18n/ca.es.js",
+      "node_modules/vue-cal/dist/i18n/cs.es.js",
+      "node_modules/vue-cal/dist/i18n/da.es.js",
+      "node_modules/vue-cal/dist/i18n/de.es.js",
+      "node_modules/vue-cal/dist/i18n/el.es.js",
+      "node_modules/vue-cal/dist/i18n/en.es.js",
+      "node_modules/vue-cal/dist/i18n/es.es.js",
+      "node_modules/vue-cal/dist/i18n/et.es.js",
+      "node_modules/vue-cal/dist/i18n/fa.es.js",
+      "node_modules/vue-cal/dist/i18n/fi.es.js",
+      "node_modules/vue-cal/dist/i18n/fr.es.js",
+      "node_modules/vue-cal/dist/i18n/he.es.js",
+      "node_modules/vue-cal/dist/i18n/hr.es.js",
+      "node_modules/vue-cal/dist/i18n/hu.es.js",
+      "node_modules/vue-cal/dist/i18n/id.es.js",
+      "node_modules/vue-cal/dist/i18n/is.es.js",
+      "node_modules/vue-cal/dist/i18n/it.es.js",
+      "node_modules/vue-cal/dist/i18n/ja.es.js",
+      "node_modules/vue-cal/dist/i18n/ka.es.js",
+      "node_modules/vue-cal/dist/i18n/ko.es.js",
+      "node_modules/vue-cal/dist/i18n/lt.es.js",
+      "node_modules/vue-cal/dist/i18n/mn.es.js",
+      "node_modules/vue-cal/dist/i18n/nl.es.js",
+      "node_modules/vue-cal/dist/i18n/no.es.js",
+      "node_modules/vue-cal/dist/i18n/pl.es.js",
+      "node_modules/vue-cal/dist/i18n/pt-br.es.js",
+      "node_modules/vue-cal/dist/i18n/pt-pt.es.js",
+      "node_modules/vue-cal/dist/i18n/ro.es.js",
+      "node_modules/vue-cal/dist/i18n/ru.es.js",
+      "node_modules/vue-cal/dist/i18n/sk.es.js",
+      "node_modules/vue-cal/dist/i18n/sl.es.js",
+      "node_modules/vue-cal/dist/i18n/sq.es.js",
+      "node_modules/vue-cal/dist/i18n/sr.es.js",
+      "node_modules/vue-cal/dist/i18n/sv.es.js",
+      "node_modules/vue-cal/dist/i18n/tr.es.js",
+      "node_modules/vue-cal/dist/i18n/uk.es.js",
+      "node_modules/vue-cal/dist/i18n/vi.es.js",
+      "node_modules/vue-cal/dist/i18n/zh-cn.es.js",
+      "node_modules/vue-cal/dist/i18n/zh-hk.es.js",
+      "node_modules/vue-cal/dist/drag-and-drop.es.js"
+    ],
+    "file": "assets/vuecal-b9634972.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-8c5d7fa4.js",
+    "imports": [
+      "resources/js/app.js",
+      "_jspdf.es.min-3cebb56b.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/canvg/lib/index.es.js"
+  },
+  "node_modules/dompurify/dist/purify.es.js": {
+    "file": "assets/purify.es-dceb4668.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/dompurify/dist/purify.es.js"
+  },
+  "node_modules/html2canvas/dist/html2canvas.esm.js": {
+    "file": "assets/html2canvas.esm-e0a7d97b.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/html2canvas/dist/html2canvas.esm.js"
+  },
+  "node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "assets/primeicons-987f23ea.eot",
+    "src": "node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "assets/primeicons-36c54cec.svg",
+    "src": "node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "assets/primeicons-dc895fee.ttf",
+    "src": "node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "assets/primeicons-f5d1d219.woff",
+    "src": "node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "assets/primeicons-9eea6e0b.woff2",
+    "src": "node_modules/primeicons/fonts/primeicons.woff2"
+  },
+  "node_modules/vue-cal/dist/drag-and-drop.es.js": {
+    "file": "assets/drag-and-drop.es-0df93f71.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/drag-and-drop.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ar.es.js": {
+    "file": "assets/ar.es-2968a13f.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ar.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/bg.es.js": {
+    "file": "assets/bg.es-182cdcb3.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/bg.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/bn.es.js": {
+    "file": "assets/bn.es-3f8773a4.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/bn.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/bs.es.js": {
+    "file": "assets/bs.es-47a220af.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/bs.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ca.es.js": {
+    "file": "assets/ca.es-47a49a5a.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ca.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/cs.es.js": {
+    "file": "assets/cs.es-29e50c14.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/cs.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/da.es.js": {
+    "file": "assets/da.es-eecb0b06.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/da.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/de.es.js": {
+    "file": "assets/de.es-83841cfd.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/de.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/el.es.js": {
+    "file": "assets/el.es-b1c0d142.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/el.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/en.es.js": {
+    "file": "assets/en.es-d28ce695.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/en.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/es.es.js": {
+    "file": "assets/es.es-232cf334.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/es.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/et.es.js": {
+    "file": "assets/et.es-7e6a3380.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/et.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/fa.es.js": {
+    "file": "assets/fa.es-b08cd112.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/fa.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/fi.es.js": {
+    "file": "assets/fi.es-d164093c.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/fi.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/fr.es.js": {
+    "file": "assets/fr.es-bb780d19.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/fr.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/he.es.js": {
+    "file": "assets/he.es-38780c8b.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/he.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/hr.es.js": {
+    "file": "assets/hr.es-fdafdc21.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/hr.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/hu.es.js": {
+    "file": "assets/hu.es-3630014a.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/hu.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/id.es.js": {
+    "file": "assets/id.es-3e6a36ce.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/id.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/is.es.js": {
+    "file": "assets/is.es-a5785bf6.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/is.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/it.es.js": {
+    "file": "assets/it.es-a9d8c123.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/it.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ja.es.js": {
+    "file": "assets/ja.es-6a0383c1.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ja.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ka.es.js": {
+    "file": "assets/ka.es-75616353.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ka.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ko.es.js": {
+    "file": "assets/ko.es-52b4fe30.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ko.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/lt.es.js": {
+    "file": "assets/lt.es-fb2fe7b5.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/lt.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/mn.es.js": {
+    "file": "assets/mn.es-fcd02e46.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/mn.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/nl.es.js": {
+    "file": "assets/nl.es-558331c7.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/nl.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/no.es.js": {
+    "file": "assets/no.es-8b33619c.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/no.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/pl.es.js": {
+    "file": "assets/pl.es-631374bd.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/pl.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/pt-br.es.js": {
+    "file": "assets/pt-br.es-a39b3c5f.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/pt-br.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/pt-pt.es.js": {
+    "file": "assets/pt-pt.es-a39b3c5f.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/pt-pt.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ro.es.js": {
+    "file": "assets/ro.es-8080c341.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ro.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/ru.es.js": {
+    "file": "assets/ru.es-9e02a02e.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/ru.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/sk.es.js": {
+    "file": "assets/sk.es-7894e5cb.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/sk.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/sl.es.js": {
+    "file": "assets/sl.es-886c86bd.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/sl.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/sq.es.js": {
+    "file": "assets/sq.es-600bc51c.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/sq.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/sr.es.js": {
+    "file": "assets/sr.es-f3348729.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/sr.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/sv.es.js": {
+    "file": "assets/sv.es-f0a285bd.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/sv.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/tr.es.js": {
+    "file": "assets/tr.es-f57d7128.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/tr.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/uk.es.js": {
+    "file": "assets/uk.es-0afcf35e.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/uk.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/vi.es.js": {
+    "file": "assets/vi.es-c0302793.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/vi.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/zh-cn.es.js": {
+    "file": "assets/zh-cn.es-b584d7c2.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/zh-cn.es.js"
+  },
+  "node_modules/vue-cal/dist/i18n/zh-hk.es.js": {
+    "file": "assets/zh-hk.es-3b3b5fba.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/vue-cal/dist/i18n/zh-hk.es.js"
+  },
+  "resources/js/Pages/API/Index.vue": {
+    "file": "assets/Index-a1732f41.js",
+    "imports": [
+      "resources/js/Pages/API/Partials/ApiTokenManager.vue",
+      "_AppLayout-76d6eb27.js",
+      "resources/js/app.js",
+      "_ActionMessage-13807027.js",
+      "_DialogModal-7d73c483.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_Checkbox-51e521f7.js",
+      "_DangerButton-b70a49e1.js",
+      "_FormSection-d01b3122.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_SectionBorder-87bac081.js",
+      "_TextInput-1febd58e.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/API/Index.vue"
+  },
+  "resources/js/Pages/API/Partials/ApiTokenManager.vue": {
+    "file": "assets/ApiTokenManager-f7b9b68f.js",
+    "imports": [
+      "resources/js/app.js",
+      "_ActionMessage-13807027.js",
+      "_DialogModal-7d73c483.js",
+      "_Checkbox-51e521f7.js",
+      "_DangerButton-b70a49e1.js",
+      "_FormSection-d01b3122.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_SectionBorder-87bac081.js",
+      "_TextInput-1febd58e.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/API/Partials/ApiTokenManager.vue"
+  },
+  "resources/js/Pages/About.css": {
+    "file": "assets/About-2b45bde8.css",
+    "src": "resources/js/Pages/About.css"
+  },
+  "resources/js/Pages/About.vue": {
+    "assets": [
+      "assets/about-page-9e6bad98.png",
+      "assets/Doc_Kat2-5e108c55.jpg",
+      "assets/Ms_Alanna-81ea5342.jpg",
+      "assets/woman-icon-2d3f12a7.png",
+      "assets/nicole-a8f9678f.png",
+      "assets/jonalyn-a904f1e5.png",
+      "assets/francesca-66540812.png",
+      "assets/geraldine-14be2ac0.png"
+    ],
+    "css": [
+      "assets/About-2b45bde8.css"
+    ],
+    "file": "assets/About-6395c02e.js",
+    "imports": [
+      "resources/js/app.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/About.vue"
+  },
+  "resources/js/Pages/Auth/ConfirmPassword.vue": {
+    "file": "assets/ConfirmPassword-e0b23fa6.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCard-12f7f7f4.js",
+      "_AuthenticationCardLogo-7ad0f100.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/ConfirmPassword.vue"
+  },
+  "resources/js/Pages/Auth/ForgotPassword.css": {
+    "file": "assets/ForgotPassword-3d23e6d6.css",
+    "src": "resources/js/Pages/Auth/ForgotPassword.css"
+  },
+  "resources/js/Pages/Auth/ForgotPassword.vue": {
+    "css": [
+      "assets/ForgotPassword-3d23e6d6.css"
+    ],
+    "file": "assets/ForgotPassword-b3f7f231.js",
+    "imports": [
+      "resources/js/app.js",
+      "_home-13a42f14.js",
+      "_AuthenticationCard-12f7f7f4.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/ForgotPassword.vue"
+  },
+  "resources/js/Pages/Auth/Login.css": {
+    "file": "assets/Login-272f0b34.css",
+    "src": "resources/js/Pages/Auth/Login.css"
+  },
+  "resources/js/Pages/Auth/Login.vue": {
+    "assets": [
+      "assets/UP_Manila_Logo-effefcd5.png"
+    ],
+    "css": [
+      "assets/Login-272f0b34.css"
+    ],
+    "file": "assets/Login-bb4426da.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCard-12f7f7f4.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/Login.vue"
+  },
+  "resources/js/Pages/Auth/Register.css": {
+    "file": "assets/Register-a1bc53b6.css",
+    "src": "resources/js/Pages/Auth/Register.css"
+  },
+  "resources/js/Pages/Auth/Register.vue": {
+    "css": [
+      "assets/Register-a1bc53b6.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/Register-160268e7.js",
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_Checkbox-51e521f7.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_index-ee108f99.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/Register.vue"
+  },
+  "resources/js/Pages/Auth/ResetPassword.css": {
+    "file": "assets/ResetPassword-8379b7ea.css",
+    "src": "resources/js/Pages/Auth/ResetPassword.css"
+  },
+  "resources/js/Pages/Auth/ResetPassword.vue": {
+    "css": [
+      "assets/ResetPassword-8379b7ea.css"
+    ],
+    "file": "assets/ResetPassword-2a2e1162.js",
+    "imports": [
+      "resources/js/app.js",
+      "_home-13a42f14.js",
+      "_AuthenticationCard-12f7f7f4.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/ResetPassword.vue"
+  },
+  "resources/js/Pages/Auth/TwoFactorChallenge.vue": {
+    "file": "assets/TwoFactorChallenge-827ee579.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCard-12f7f7f4.js",
+      "_AuthenticationCardLogo-7ad0f100.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/TwoFactorChallenge.vue"
+  },
+  "resources/js/Pages/Auth/VerifyEmail.css": {
+    "file": "assets/VerifyEmail-3529c237.css",
+    "src": "resources/js/Pages/Auth/VerifyEmail.css"
+  },
+  "resources/js/Pages/Auth/VerifyEmail.vue": {
+    "css": [
+      "assets/VerifyEmail-3529c237.css"
+    ],
+    "file": "assets/VerifyEmail-84892731.js",
+    "imports": [
+      "resources/js/app.js",
+      "_Footer-d0c101dc.js",
+      "_AuthenticationCard-12f7f7f4.js",
+      "_PrimaryButton-f8b31512.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/VerifyEmail.vue"
+  },
+  "resources/js/Pages/ChemotherapyPage.css": {
+    "file": "assets/ChemotherapyPage-2bcbf72a.css",
+    "src": "resources/js/Pages/ChemotherapyPage.css"
+  },
+  "resources/js/Pages/ChemotherapyPage.vue": {
+    "css": [
+      "assets/ChemotherapyPage-2bcbf72a.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/ChemotherapyPage-8b07dd6c.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_PrimaryButton-f8b31512.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ChemotherapyPage.vue"
+  },
+  "resources/js/Pages/ChemotherapyUpdatePage.css": {
+    "file": "assets/ChemotherapyUpdatePage-53c46020.css",
+    "src": "resources/js/Pages/ChemotherapyUpdatePage.css"
+  },
+  "resources/js/Pages/ChemotherapyUpdatePage.vue": {
+    "css": [
+      "assets/ChemotherapyUpdatePage-53c46020.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/ChemotherapyUpdatePage-a3c97c28.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_Alert-c8b905ec.js",
+      "_PrimaryButton-f8b31512.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ChemotherapyUpdatePage.vue"
+  },
+  "resources/js/Pages/ClinicalAbstractPage.css": {
+    "file": "assets/ClinicalAbstractPage-9a27b718.css",
+    "src": "resources/js/Pages/ClinicalAbstractPage.css"
+  },
+  "resources/js/Pages/ClinicalAbstractPage.vue": {
+    "css": [
+      "assets/ClinicalAbstractPage-9a27b718.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/ClinicalAbstractPage-3e1f0e7a.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/Layout.vue",
+      "_jspdf.es.min-3cebb56b.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ClinicalAbstractPage.vue"
+  },
+  "resources/js/Pages/ConsultPage.css": {
+    "file": "assets/ConsultPage-f18ffb64.css",
+    "src": "resources/js/Pages/ConsultPage.css"
+  },
+  "resources/js/Pages/ConsultPage.vue": {
+    "css": [
+      "assets/ConsultPage-f18ffb64.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/ConsultPage-96de0d32.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "_Alert-c8b905ec.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ConsultPage.vue"
+  },
+  "resources/js/Pages/Contact.css": {
+    "file": "assets/Contact-5dfaf5e4.css",
+    "src": "resources/js/Pages/Contact.css"
+  },
+  "resources/js/Pages/Contact.vue": {
+    "css": [
+      "assets/Contact-5dfaf5e4.css"
+    ],
+    "file": "assets/Contact-91cf1646.js",
+    "imports": [
+      "resources/js/app.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Contact.vue"
+  },
+  "resources/js/Pages/Dashboard.css": {
+    "file": "assets/Dashboard-b3fe7a62.css",
+    "src": "resources/js/Pages/Dashboard.css"
+  },
+  "resources/js/Pages/Dashboard.vue": {
+    "css": [
+      "assets/Dashboard-b3fe7a62.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/Dashboard-8e415327.js",
+    "imports": [
+      "resources/js/Pages/Layout.vue",
+      "_column.esm-ac9822a2.js",
+      "_vuecal-b9634972.js",
+      "resources/js/app.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Dashboard.vue"
+  },
+  "resources/js/Pages/DiseaseInfoPage.css": {
+    "file": "assets/DiseaseInfoPage-5d6735d1.css",
+    "src": "resources/js/Pages/DiseaseInfoPage.css"
+  },
+  "resources/js/Pages/DiseaseInfoPage.vue": {
+    "css": [
+      "assets/DiseaseInfoPage-5d6735d1.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/DiseaseInfoPage-a3174054.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_PrimaryButton-f8b31512.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/DiseaseInfoPage.vue"
+  },
+  "resources/js/Pages/DiseaseProfilePage.css": {
+    "file": "assets/DiseaseProfilePage-664f2160.css",
+    "src": "resources/js/Pages/DiseaseProfilePage.css"
+  },
+  "resources/js/Pages/DiseaseProfilePage.vue": {
+    "css": [
+      "assets/DiseaseProfilePage-664f2160.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/DiseaseProfilePage-8550fdf2.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_Alert-c8b905ec.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/DiseaseProfilePage.vue"
+  },
+  "resources/js/Pages/DiseaseProfileUpdatePage.css": {
+    "file": "assets/DiseaseProfileUpdatePage-7d2af24d.css",
+    "src": "resources/js/Pages/DiseaseProfileUpdatePage.css"
+  },
+  "resources/js/Pages/DiseaseProfileUpdatePage.vue": {
+    "css": [
+      "assets/DiseaseProfileUpdatePage-7d2af24d.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/DiseaseProfileUpdatePage-0f8df41c.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_Alert-c8b905ec.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/DiseaseProfileUpdatePage.vue"
+  },
+  "resources/js/Pages/Doctor.css": {
+    "file": "assets/Doctor-5923d45a.css",
+    "src": "resources/js/Pages/Doctor.css"
+  },
+  "resources/js/Pages/Doctor.vue": {
+    "assets": [
+      "assets/doctor-page-026b248c.png",
+      "assets/monitor-6f22c77c.png",
+      "assets/create-2e31f5c8.png",
+      "assets/interact2-4b0b381e.png",
+      "assets/produce-49d6b0f3.png",
+      "assets/share-51665492.png"
+    ],
+    "css": [
+      "assets/Doctor-5923d45a.css"
+    ],
+    "file": "assets/Doctor-f0308301.js",
+    "imports": [
+      "resources/js/app.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Doctor.vue"
+  },
+  "resources/js/Pages/DoctorNotificationPage.css": {
+    "file": "assets/DoctorNotificationPage-f750a6a2.css",
+    "src": "resources/js/Pages/DoctorNotificationPage.css"
+  },
+  "resources/js/Pages/DoctorNotificationPage.vue": {
+    "css": [
+      "assets/DoctorNotificationPage-f750a6a2.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/DoctorNotificationPage-f5081127.js",
+    "imports": [
+      "resources/js/Pages/Layout.vue",
+      "_column.esm-ac9822a2.js",
+      "_dialog.esm-7590c070.js",
+      "_vuecal-b9634972.js",
+      "_index-ee108f99.js",
+      "resources/js/app.js",
+      "_PrimaryButton-f8b31512.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/DoctorNotificationPage.vue"
+  },
+  "resources/js/Pages/HormonalPage.css": {
+    "file": "assets/HormonalPage-760a6ed9.css",
+    "src": "resources/js/Pages/HormonalPage.css"
+  },
+  "resources/js/Pages/HormonalPage.vue": {
+    "css": [
+      "assets/HormonalPage-760a6ed9.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/HormonalPage-ae5f77c3.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/HormonalPage.vue"
+  },
+  "resources/js/Pages/HormonalUpdatePage.css": {
+    "file": "assets/HormonalUpdatePage-a4d3a585.css",
+    "src": "resources/js/Pages/HormonalUpdatePage.css"
+  },
+  "resources/js/Pages/HormonalUpdatePage.vue": {
+    "css": [
+      "assets/HormonalUpdatePage-a4d3a585.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/HormonalUpdatePage-1f4c7331.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "_PrimaryButton-f8b31512.js",
+      "_Alert-c8b905ec.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/HormonalUpdatePage.vue"
+  },
+  "resources/js/Pages/ImmunotherapyPage.css": {
+    "file": "assets/ImmunotherapyPage-dbb927bc.css",
+    "src": "resources/js/Pages/ImmunotherapyPage.css"
+  },
+  "resources/js/Pages/ImmunotherapyPage.vue": {
+    "css": [
+      "assets/ImmunotherapyPage-dbb927bc.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/ImmunotherapyPage-5608f8c8.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ImmunotherapyPage.vue"
+  },
+  "resources/js/Pages/ImmunotherapyUpdatePage.css": {
+    "file": "assets/ImmunotherapyUpdatePage-ddc48b7c.css",
+    "src": "resources/js/Pages/ImmunotherapyUpdatePage.css"
+  },
+  "resources/js/Pages/ImmunotherapyUpdatePage.vue": {
+    "css": [
+      "assets/ImmunotherapyUpdatePage-ddc48b7c.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/ImmunotherapyUpdatePage-80ece7e1.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_Alert-c8b905ec.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ImmunotherapyUpdatePage.vue"
+  },
+  "resources/js/Pages/LabRequestPage.css": {
+    "file": "assets/LabRequestPage-80fa0f64.css",
+    "src": "resources/js/Pages/LabRequestPage.css"
+  },
+  "resources/js/Pages/LabRequestPage.vue": {
+    "css": [
+      "assets/LabRequestPage-80fa0f64.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/LabRequestPage-652bd2c0.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/Layout.vue",
+      "_jspdf.es.min-3cebb56b.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/LabRequestPage.vue"
+  },
+  "resources/js/Pages/LaboratoryRequestPage.css": {
+    "file": "assets/LaboratoryRequestPage-a08243e1.css",
+    "src": "resources/js/Pages/LaboratoryRequestPage.css"
+  },
+  "resources/js/Pages/LaboratoryRequestPage.vue": {
+    "css": [
+      "assets/LaboratoryRequestPage-a08243e1.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/LaboratoryRequestPage-9f5b5061.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/LaboratoryRequestPage.vue"
+  },
+  "resources/js/Pages/LaboratoryResultPage.css": {
+    "file": "assets/LaboratoryResultPage-e2cc3d34.css",
+    "src": "resources/js/Pages/LaboratoryResultPage.css"
+  },
+  "resources/js/Pages/LaboratoryResultPage.vue": {
+    "css": [
+      "assets/LaboratoryResultPage-e2cc3d34.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/LaboratoryResultPage-e9f7fd48.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Alert-c8b905ec.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/LaboratoryResultPage.vue"
+  },
+  "resources/js/Pages/Layout.vue": {
+    "assets": [
+      "assets/logout-97ab7ab5.png",
+      "assets/search-05210a93.png"
+    ],
+    "css": [
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/Layout-b7f944c2.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Layout.vue"
+  },
+  "resources/js/Pages/MedCertificationPage.css": {
+    "file": "assets/MedCertificationPage-bd3c0c0d.css",
+    "src": "resources/js/Pages/MedCertificationPage.css"
+  },
+  "resources/js/Pages/MedCertificationPage.vue": {
+    "css": [
+      "assets/MedCertificationPage-bd3c0c0d.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/MedCertificationPage-48b04b14.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/Layout.vue",
+      "_jspdf.es.min-3cebb56b.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/MedCertificationPage.vue"
+  },
+  "resources/js/Pages/MessagePage.css": {
+    "file": "assets/MessagePage-533c3713.css",
+    "src": "resources/js/Pages/MessagePage.css"
+  },
+  "resources/js/Pages/MessagePage.vue": {
+    "css": [
+      "assets/MessagePage-533c3713.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/MessagePage-8afe1a00.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_Alert-c8b905ec.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/MessagePage.vue"
+  },
+  "resources/js/Pages/Patient.css": {
+    "file": "assets/Patient-2cdb4663.css",
+    "src": "resources/js/Pages/Patient.css"
+  },
+  "resources/js/Pages/Patient.vue": {
+    "assets": [
+      "assets/patient-page1-33819d05.png",
+      "assets/notified-e4134b35.png",
+      "assets/submit-b9e856fa.png",
+      "assets/track-babf1b43.png",
+      "assets/interact-cd8f2dac.png",
+      "assets/access-9b2783d7.png"
+    ],
+    "css": [
+      "assets/Patient-2cdb4663.css"
+    ],
+    "file": "assets/Patient-599293fb.js",
+    "imports": [
+      "resources/js/app.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Patient.vue"
+  },
+  "resources/js/Pages/PatientDetailsUpdatePage.css": {
+    "file": "assets/PatientDetailsUpdatePage-ca66ca25.css",
+    "src": "resources/js/Pages/PatientDetailsUpdatePage.css"
+  },
+  "resources/js/Pages/PatientDetailsUpdatePage.vue": {
+    "css": [
+      "assets/PatientDetailsUpdatePage-ca66ca25.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/PatientDetailsUpdatePage-88a4aa21.js",
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Alert-c8b905ec.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/PatientDetailsUpdatePage.vue"
+  },
+  "resources/js/Pages/PatientEnrollmentPage.css": {
+    "file": "assets/PatientEnrollmentPage-422b5965.css",
+    "src": "resources/js/Pages/PatientEnrollmentPage.css"
+  },
+  "resources/js/Pages/PatientEnrollmentPage.vue": {
+    "css": [
+      "assets/PatientEnrollmentPage-422b5965.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/PatientEnrollmentPage-4def633b.js",
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/PatientEnrollmentPage.vue"
+  },
+  "resources/js/Pages/PatientInfoPage.css": {
+    "file": "assets/PatientInfoPage-660d6593.css",
+    "src": "resources/js/Pages/PatientInfoPage.css"
+  },
+  "resources/js/Pages/PatientInfoPage.vue": {
+    "css": [
+      "assets/PatientInfoPage-660d6593.css"
+    ],
+    "file": "assets/PatientInfoPage-e1c1b9e6.js",
+    "imports": [
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/PatientInfoPage.vue"
+  },
+  "resources/js/Pages/PatientNotificationPage.css": {
+    "file": "assets/PatientNotificationPage-7bbacf3b.css",
+    "src": "resources/js/Pages/PatientNotificationPage.css"
+  },
+  "resources/js/Pages/PatientNotificationPage.vue": {
+    "css": [
+      "assets/PatientNotificationPage-7bbacf3b.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/PatientNotificationPage-b9916342.js",
+    "imports": [
+      "resources/js/Pages/Layout.vue",
+      "_column.esm-ac9822a2.js",
+      "_dialog.esm-7590c070.js",
+      "_vuecal-b9634972.js",
+      "_index-ee108f99.js",
+      "resources/js/app.js",
+      "_PrimaryButton-f8b31512.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/PatientNotificationPage.vue"
+  },
+  "resources/js/Pages/PrescriptionPage.css": {
+    "file": "assets/PrescriptionPage-4c4b53dd.css",
+    "src": "resources/js/Pages/PrescriptionPage.css"
+  },
+  "resources/js/Pages/PrescriptionPage.vue": {
+    "css": [
+      "assets/PrescriptionPage-4c4b53dd.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/PrescriptionPage-041bf5e1.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/Layout.vue",
+      "_jspdf.es.min-3cebb56b.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/PrescriptionPage.vue"
+  },
+  "resources/js/Pages/PrivacyPolicy.vue": {
+    "file": "assets/PrivacyPolicy-c624c6cf.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCardLogo-7ad0f100.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/PrivacyPolicy.vue"
+  },
+  "resources/js/Pages/Profile/Partials/DeleteUserForm.vue": {
+    "file": "assets/DeleteUserForm-57e7ccd9.js",
+    "imports": [
+      "resources/js/app.js",
+      "_DialogModal-7d73c483.js",
+      "_DangerButton-b70a49e1.js",
+      "_InputError-c4a7bcc1.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_TextInput-1febd58e.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.vue"
+  },
+  "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue": {
+    "file": "assets/LogoutOtherBrowserSessionsForm-380661d9.js",
+    "imports": [
+      "resources/js/app.js",
+      "_ActionMessage-13807027.js",
+      "_DialogModal-7d73c483.js",
+      "_InputError-c4a7bcc1.js",
+      "_PrimaryButton-f8b31512.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_TextInput-1febd58e.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue"
+  },
+  "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue": {
+    "file": "assets/TwoFactorAuthenticationForm-edef5fb3.js",
+    "imports": [
+      "resources/js/app.js",
+      "_DialogModal-7d73c483.js",
+      "_InputError-c4a7bcc1.js",
+      "_PrimaryButton-f8b31512.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_TextInput-1febd58e.js",
+      "_DangerButton-b70a49e1.js",
+      "_InputLabel-4a24d642.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue"
+  },
+  "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue": {
+    "file": "assets/UpdatePasswordForm-d1ea0b94.js",
+    "imports": [
+      "resources/js/app.js",
+      "_ActionMessage-13807027.js",
+      "_FormSection-d01b3122.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue"
+  },
+  "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue": {
+    "file": "assets/UpdateProfileInformationForm-1ebed917.js",
+    "imports": [
+      "resources/js/app.js",
+      "_ActionMessage-13807027.js",
+      "_FormSection-d01b3122.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_TextInput-1febd58e.js",
+      "_SectionTitle-1199d010.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue"
+  },
+  "resources/js/Pages/Profile/Show.vue": {
+    "file": "assets/Show-01f503e1.js",
+    "imports": [
+      "_AppLayout-76d6eb27.js",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.vue",
+      "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue",
+      "_SectionBorder-87bac081.js",
+      "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue",
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js",
+      "_DialogModal-7d73c483.js",
+      "_SectionTitle-1199d010.js",
+      "_DangerButton-b70a49e1.js",
+      "_InputError-c4a7bcc1.js",
+      "_SecondaryButton-d35afa0b.js",
+      "_TextInput-1febd58e.js",
+      "_ActionMessage-13807027.js",
+      "_PrimaryButton-f8b31512.js",
+      "_InputLabel-4a24d642.js",
+      "_FormSection-d01b3122.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Show.vue"
+  },
+  "resources/js/Pages/RadiotherapyPage.css": {
+    "file": "assets/RadiotherapyPage-d1cce0f9.css",
+    "src": "resources/js/Pages/RadiotherapyPage.css"
+  },
+  "resources/js/Pages/RadiotherapyPage.vue": {
+    "css": [
+      "assets/RadiotherapyPage-d1cce0f9.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/RadiotherapyPage-0f9b5298.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "_PrimaryButton-f8b31512.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/RadiotherapyPage.vue"
+  },
+  "resources/js/Pages/RadiotherapyUpdatePage.css": {
+    "file": "assets/RadiotherapyUpdatePage-7bf90c28.css",
+    "src": "resources/js/Pages/RadiotherapyUpdatePage.css"
+  },
+  "resources/js/Pages/RadiotherapyUpdatePage.vue": {
+    "css": [
+      "assets/RadiotherapyUpdatePage-7bf90c28.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/RadiotherapyUpdatePage-8707b211.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "_PrimaryButton-f8b31512.js",
+      "_Alert-c8b905ec.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/RadiotherapyUpdatePage.vue"
+  },
+  "resources/js/Pages/ReferralFormPage.css": {
+    "file": "assets/ReferralFormPage-81b9784f.css",
+    "src": "resources/js/Pages/ReferralFormPage.css"
+  },
+  "resources/js/Pages/ReferralFormPage.vue": {
+    "css": [
+      "assets/ReferralFormPage-81b9784f.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/ReferralFormPage-1a3512c2.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/Layout.vue",
+      "_jspdf.es.min-3cebb56b.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_index-ee108f99.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ReferralFormPage.vue"
+  },
+  "resources/js/Pages/SchedConsultPage.css": {
+    "file": "assets/SchedConsultPage-6449f3d3.css",
+    "src": "resources/js/Pages/SchedConsultPage.css"
+  },
+  "resources/js/Pages/SchedConsultPage.vue": {
+    "css": [
+      "assets/SchedConsultPage-6449f3d3.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/SchedConsultPage-594a7f16.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_PrimaryButton-f8b31512.js",
+      "_index-ee108f99.js",
+      "_Alert-c8b905ec.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/SchedConsultPage.vue"
+  },
+  "resources/js/Pages/SearchPage.css": {
+    "file": "assets/SearchPage-682375b7.css",
+    "src": "resources/js/Pages/SearchPage.css"
+  },
+  "resources/js/Pages/SearchPage.vue": {
+    "css": [
+      "assets/SearchPage-682375b7.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/SearchPage-0ec3964c.js",
+    "imports": [
+      "resources/js/Pages/Layout.vue",
+      "_column.esm-ac9822a2.js",
+      "resources/js/app.js",
+      "_index-ee108f99.js",
+      "resources/js/Pages/PatientInfoPage.vue",
+      "resources/js/Pages/DiseaseInfoPage.vue",
+      "resources/js/Pages/TreatmentHistoryInfoPage.vue",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js",
+      "_PrimaryButton-f8b31512.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/SearchPage.vue"
+  },
+  "resources/js/Pages/SurgeryPage.css": {
+    "file": "assets/SurgeryPage-84154fc4.css",
+    "src": "resources/js/Pages/SurgeryPage.css"
+  },
+  "resources/js/Pages/SurgeryPage.vue": {
+    "css": [
+      "assets/SurgeryPage-84154fc4.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/SurgeryPage-834c24e0.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_PrimaryButton-f8b31512.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/SurgeryPage.vue"
+  },
+  "resources/js/Pages/SurgeryUpdatePage.css": {
+    "file": "assets/SurgeryUpdatePage-c0f1a3fd.css",
+    "src": "resources/js/Pages/SurgeryUpdatePage.css"
+  },
+  "resources/js/Pages/SurgeryUpdatePage.vue": {
+    "css": [
+      "assets/SurgeryUpdatePage-c0f1a3fd.css",
+      "assets/Layout-b917f39c.css",
+      "assets/Alert-80163d59.css"
+    ],
+    "file": "assets/SurgeryUpdatePage-c7e238f0.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_Alert-c8b905ec.js",
+      "_PrimaryButton-f8b31512.js",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/SurgeryUpdatePage.vue"
+  },
+  "resources/js/Pages/SymptomsReportPage.css": {
+    "file": "assets/SymptomsReportPage-fac3e127.css",
+    "src": "resources/js/Pages/SymptomsReportPage.css"
+  },
+  "resources/js/Pages/SymptomsReportPage.vue": {
+    "css": [
+      "assets/SymptomsReportPage-fac3e127.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/SymptomsReportPage-da0a8080.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Alert-c8b905ec.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/SymptomsReportPage.vue"
+  },
+  "resources/js/Pages/TermsOfService.vue": {
+    "file": "assets/TermsOfService-26cde9f4.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCardLogo-7ad0f100.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/TermsOfService.vue"
+  },
+  "resources/js/Pages/TreatmentHistoryInfoPage.css": {
+    "file": "assets/TreatmentHistoryInfoPage-1bb63107.css",
+    "src": "resources/js/Pages/TreatmentHistoryInfoPage.css"
+  },
+  "resources/js/Pages/TreatmentHistoryInfoPage.vue": {
+    "css": [
+      "assets/TreatmentHistoryInfoPage-1bb63107.css"
+    ],
+    "file": "assets/TreatmentHistoryInfoPage-bdcdfb7d.js",
+    "imports": [
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/TreatmentHistoryInfoPage.vue"
+  },
+  "resources/js/Pages/TreatmentHistoryPage.css": {
+    "file": "assets/TreatmentHistoryPage-b257e2a4.css",
+    "src": "resources/js/Pages/TreatmentHistoryPage.css"
+  },
+  "resources/js/Pages/TreatmentHistoryPage.vue": {
+    "css": [
+      "assets/TreatmentHistoryPage-b257e2a4.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/TreatmentHistoryPage-d8acf9be.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/TreatmentHistoryPage.vue"
+  },
+  "resources/js/Pages/TreatmentHistoryUpdatePage.css": {
+    "file": "assets/TreatmentHistoryUpdatePage-783fc546.css",
+    "src": "resources/js/Pages/TreatmentHistoryUpdatePage.css"
+  },
+  "resources/js/Pages/TreatmentHistoryUpdatePage.vue": {
+    "css": [
+      "assets/TreatmentHistoryUpdatePage-783fc546.css",
+      "assets/Alert-80163d59.css",
+      "assets/Layout-b917f39c.css"
+    ],
+    "file": "assets/TreatmentHistoryUpdatePage-95c6b897.js",
+    "imports": [
+      "resources/js/app.js",
+      "_InputError-c4a7bcc1.js",
+      "_InputLabel-4a24d642.js",
+      "_PrimaryButton-f8b31512.js",
+      "_TextInput-1febd58e.js",
+      "_Alert-c8b905ec.js",
+      "resources/js/Pages/Layout.vue",
+      "_index-ee108f99.js",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_DropdownLink-7a8a95ab.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/TreatmentHistoryUpdatePage.vue"
+  },
+  "resources/js/Pages/Tutorial.css": {
+    "file": "assets/Tutorial-af928571.css",
+    "src": "resources/js/Pages/Tutorial.css"
+  },
+  "resources/js/Pages/Tutorial.vue": {
+    "css": [
+      "assets/Tutorial-af928571.css"
+    ],
+    "file": "assets/Tutorial-106f66ae.js",
+    "imports": [
+      "resources/js/app.js",
+      "_Header-f21fcd2a.js",
+      "_Footer-d0c101dc.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Tutorial.vue"
+  },
+  "resources/js/Pages/Welcome.css": {
+    "file": "assets/Welcome-665689a9.css",
+    "src": "resources/js/Pages/Welcome.css"
+  },
+  "resources/js/Pages/Welcome.vue": {
+    "css": [
+      "assets/Welcome-665689a9.css"
+    ],
+    "file": "assets/Welcome-70092207.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Welcome.vue"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-5fe2f0ef.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/Kalam-Regular-92a9006d.ttf",
+      "assets/primeicons-987f23ea.eot",
+      "assets/primeicons-9eea6e0b.woff2",
+      "assets/primeicons-f5d1d219.woff",
+      "assets/primeicons-dc895fee.ttf",
+      "assets/primeicons-36c54cec.svg"
+    ],
+    "css": [
+      "assets/app-5fe2f0ef.css"
+    ],
+    "dynamicImports": [
+      "resources/js/Pages/API/Index.vue",
+      "resources/js/Pages/API/Partials/ApiTokenManager.vue",
+      "resources/js/Pages/About.vue",
+      "resources/js/Pages/Auth/ConfirmPassword.vue",
+      "resources/js/Pages/Auth/ForgotPassword.vue",
+      "resources/js/Pages/Auth/Login.vue",
+      "resources/js/Pages/Auth/Register.vue",
+      "resources/js/Pages/Auth/ResetPassword.vue",
+      "resources/js/Pages/Auth/TwoFactorChallenge.vue",
+      "resources/js/Pages/Auth/VerifyEmail.vue",
+      "resources/js/Pages/ChemotherapyPage.vue",
+      "resources/js/Pages/ChemotherapyUpdatePage.vue",
+      "resources/js/Pages/ClinicalAbstractPage.vue",
+      "resources/js/Pages/ConsultPage.vue",
+      "resources/js/Pages/Contact.vue",
+      "resources/js/Pages/Dashboard.vue",
+      "resources/js/Pages/DiseaseInfoPage.vue",
+      "resources/js/Pages/DiseaseProfilePage.vue",
+      "resources/js/Pages/DiseaseProfileUpdatePage.vue",
+      "resources/js/Pages/Doctor.vue",
+      "resources/js/Pages/DoctorNotificationPage.vue",
+      "resources/js/Pages/HormonalPage.vue",
+      "resources/js/Pages/HormonalUpdatePage.vue",
+      "resources/js/Pages/ImmunotherapyPage.vue",
+      "resources/js/Pages/ImmunotherapyUpdatePage.vue",
+      "resources/js/Pages/LabRequestPage.vue",
+      "resources/js/Pages/LaboratoryRequestPage.vue",
+      "resources/js/Pages/LaboratoryResultPage.vue",
+      "resources/js/Pages/Layout.vue",
+      "resources/js/Pages/MedCertificationPage.vue",
+      "resources/js/Pages/MessagePage.vue",
+      "resources/js/Pages/Patient.vue",
+      "resources/js/Pages/PatientDetailsUpdatePage.vue",
+      "resources/js/Pages/PatientEnrollmentPage.vue",
+      "resources/js/Pages/PatientInfoPage.vue",
+      "resources/js/Pages/PatientNotificationPage.vue",
+      "resources/js/Pages/PrescriptionPage.vue",
+      "resources/js/Pages/PrivacyPolicy.vue",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.vue",
+      "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue",
+      "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue",
+      "resources/js/Pages/Profile/Show.vue",
+      "resources/js/Pages/RadiotherapyPage.vue",
+      "resources/js/Pages/RadiotherapyUpdatePage.vue",
+      "resources/js/Pages/ReferralFormPage.vue",
+      "resources/js/Pages/SchedConsultPage.vue",
+      "resources/js/Pages/SearchPage.vue",
+      "resources/js/Pages/SurgeryPage.vue",
+      "resources/js/Pages/SurgeryUpdatePage.vue",
+      "resources/js/Pages/SymptomsReportPage.vue",
+      "resources/js/Pages/TermsOfService.vue",
+      "resources/js/Pages/TreatmentHistoryInfoPage.vue",
+      "resources/js/Pages/TreatmentHistoryPage.vue",
+      "resources/js/Pages/TreatmentHistoryUpdatePage.vue",
+      "resources/js/Pages/Tutorial.vue",
+      "resources/js/Pages/Welcome.vue"
+    ],
+    "file": "assets/app-d29a1c54.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/assets/Doc_Kat2.jpg": {
+    "file": "assets/Doc_Kat2-5e108c55.jpg",
+    "src": "resources/js/assets/Doc_Kat2.jpg"
+  },
+  "resources/js/assets/Ms_Alanna.jpg": {
+    "file": "assets/Ms_Alanna-81ea5342.jpg",
+    "src": "resources/js/assets/Ms_Alanna.jpg"
+  },
+  "resources/js/assets/UP_Manila_Logo.png": {
+    "file": "assets/UP_Manila_Logo-effefcd5.png",
+    "src": "resources/js/assets/UP_Manila_Logo.png"
+  },
+  "resources/js/assets/about-page.png": {
+    "file": "assets/about-page-9e6bad98.png",
+    "src": "resources/js/assets/about-page.png"
+  },
+  "resources/js/assets/access.png": {
+    "file": "assets/access-9b2783d7.png",
+    "src": "resources/js/assets/access.png"
+  },
+  "resources/js/assets/create.png": {
+    "file": "assets/create-2e31f5c8.png",
+    "src": "resources/js/assets/create.png"
+  },
+  "resources/js/assets/doctor-page.png": {
+    "file": "assets/doctor-page-026b248c.png",
+    "src": "resources/js/assets/doctor-page.png"
+  },
+  "resources/js/assets/font/Kalam-Regular.ttf": {
+    "file": "assets/Kalam-Regular-92a9006d.ttf",
+    "src": "resources/js/assets/font/Kalam-Regular.ttf"
+  },
+  "resources/js/assets/francesca.png": {
+    "file": "assets/francesca-66540812.png",
+    "src": "resources/js/assets/francesca.png"
+  },
+  "resources/js/assets/geraldine.png": {
+    "file": "assets/geraldine-14be2ac0.png",
+    "src": "resources/js/assets/geraldine.png"
+  },
+  "resources/js/assets/home.png": {
+    "file": "assets/home-540c4d15.png",
+    "src": "resources/js/assets/home.png"
+  },
+  "resources/js/assets/interact.png": {
+    "file": "assets/interact-cd8f2dac.png",
+    "src": "resources/js/assets/interact.png"
+  },
+  "resources/js/assets/interact2.png": {
+    "file": "assets/interact2-4b0b381e.png",
+    "src": "resources/js/assets/interact2.png"
+  },
+  "resources/js/assets/jonalyn.png": {
+    "file": "assets/jonalyn-a904f1e5.png",
+    "src": "resources/js/assets/jonalyn.png"
+  },
+  "resources/js/assets/logout.png": {
+    "file": "assets/logout-97ab7ab5.png",
+    "src": "resources/js/assets/logout.png"
+  },
+  "resources/js/assets/monitor.png": {
+    "file": "assets/monitor-6f22c77c.png",
+    "src": "resources/js/assets/monitor.png"
+  },
+  "resources/js/assets/nicole.png": {
+    "file": "assets/nicole-a8f9678f.png",
+    "src": "resources/js/assets/nicole.png"
+  },
+  "resources/js/assets/notified.png": {
+    "file": "assets/notified-e4134b35.png",
+    "src": "resources/js/assets/notified.png"
+  },
+  "resources/js/assets/patient-page1.png": {
+    "file": "assets/patient-page1-33819d05.png",
+    "src": "resources/js/assets/patient-page1.png"
+  },
+  "resources/js/assets/produce.png": {
+    "file": "assets/produce-49d6b0f3.png",
+    "src": "resources/js/assets/produce.png"
+  },
+  "resources/js/assets/search.png": {
+    "file": "assets/search-05210a93.png",
+    "src": "resources/js/assets/search.png"
+  },
+  "resources/js/assets/share.png": {
+    "file": "assets/share-51665492.png",
+    "src": "resources/js/assets/share.png"
+  },
+  "resources/js/assets/submit.png": {
+    "file": "assets/submit-b9e856fa.png",
+    "src": "resources/js/assets/submit.png"
+  },
+  "resources/js/assets/track.png": {
+    "file": "assets/track-babf1b43.png",
+    "src": "resources/js/assets/track.png"
+  },
+  "resources/js/assets/woman-icon.png": {
+    "file": "assets/woman-icon-2d3f12a7.png",
+    "src": "resources/js/assets/woman-icon.png"
+  },
+  "vuecal.css": {
+    "file": "assets/vuecal-43990e2b.css",
+    "src": "vuecal.css"
+  }
+}
