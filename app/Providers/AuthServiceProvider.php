@@ -2,9 +2,8 @@
 
 namespace App\Providers;
 
+// use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Illuminate\Auth\Notifications\VerifyEmail;
-use Illuminate\Support\Facades\URL;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -14,7 +13,6 @@ class AuthServiceProvider extends ServiceProvider
      * @var array<class-string, class-string>
      */
     protected $policies = [
-        // Map models to policies here if needed
         // 'App\Models\Model' => 'App\Policies\ModelPolicy',
     ];
 
@@ -25,16 +23,6 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        // Customize the email verification link expiration
-        VerifyEmail::createUrlUsing(function ($notifiable) {
-            return URL::temporarySignedRoute(
-                'verification.verify',
-                now()->addMinutes(120), // Customize expiration time (default is 60 minutes)
-                [
-                    'id' => $notifiable->getKey(),
-                    'hash' => sha1($notifiable->getEmailForVerification()),
-                ]
-            );
-        });
+        //
     }
 }
