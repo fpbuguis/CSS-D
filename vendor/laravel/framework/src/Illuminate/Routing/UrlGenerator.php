@@ -402,7 +402,7 @@ class UrlGenerator implements UrlGeneratorContract
         // return $this->hasCorrectSignature($request, $absolute, $ignoreQuery)
         //     && $this->signatureHasNotExpired($request);
 
-            return true;
+        return true;
     }
 
     /**
