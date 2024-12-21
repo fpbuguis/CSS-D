@@ -101,17 +101,17 @@ const fetchPatientDiseaseProfile = async () => {
     }
 };
 
-const fetchPatientTreatmentInfo = async () => {
-    try {
-        let response = await axios.get(`/api/patient/${patientId}/treatments`);
-        selectedPatient.value = response.data;
-        console.log("Treatment Details: ", selectedPatient.value);
+// const fetchPatientTreatmentInfo = async () => {
+//     try {
+//         let response = await axios.get(`/api/patient/${patientId}/treatments`);
+//         selectedPatient.value = response.data;
+//         console.log("Treatment Details: ", selectedPatient.value);
 
 
-    } catch (error) {
-        console.error('Failed to fetch patient:', error);
-    }
-};
+//     } catch (error) {
+//         console.error('Failed to fetch patient:', error);
+//     }
+// };
 
 const fetchPatientCheckup = async () => {
     try {
@@ -211,9 +211,10 @@ watch(
 );
 
 onMounted(async () => {
+    console.log('Patient ID before:', patientId);
     await fetchPatientInfo();
     await fetchPatientDiseaseProfile();
-    await fetchPatientTreatmentInfo();
+    // await fetchPatientTreatmentInfo();
     await fetchCurrentDoctor(currentId);
     await fetchPatientCheckup();
     await fetchLabsSubmitted();
@@ -222,6 +223,7 @@ onMounted(async () => {
     console.log("Latest Schedule:", latest_Sched);
     console.log(isValidSched.value)
     console.log(customAlert)
+    console.log('Patient ID after:', patientId);
 });
 
 onMounted(() => {
@@ -315,6 +317,7 @@ const handleClick = (href) => {
 
             <div class="two-section-container">
                 <div class="info-left">
+                    <p>WAHHHHHHHHHHHHHHHHHH</p>
                     <p><span>Name: </span><span class="display" v-if="patientId">{{ patientData.lastname }}, {{ patientData.firstname }} {{ patientData.middlename }}</span></p>
                     <p><span>Age: </span><span class="display" v-if="patientId">{{ getPatientAge(patientData.birthday) }}</span></p>
                     <p><span>Diagnosis: </span>
@@ -324,22 +327,22 @@ const handleClick = (href) => {
 
                     <p>
                         <span>Operation: </span>
-                        <span class="display" v-if="patientId && selectedPatient?.surgeries?.length">{{  selectedPatient.surgeries[selectedPatient.surgeries.length - 1].surgery_operation }}, {{ selectedPatient.surgeries[selectedPatient.surgeries.length - 1].surgery_date  }}</span>
+                        <!-- <span class="display" v-if="patientId && selectedPatient?.surgeries?.length">{{  selectedPatient.surgeries[selectedPatient.surgeries.length - 1].surgery_operation }}, {{ selectedPatient.surgeries[selectedPatient.surgeries.length - 1].surgery_date  }}</span> -->
                     </p>
 
                     <p>
                         <span>Chemotherapy: </span>
-                        <span class="display" v-if="patientId  && selectedPatient?.chemotherapies?.length">{{  selectedPatient.chemotherapies.length > 0 ? 'Yes' : 'None' }}, {{ selectedPatient.chemotherapies[selectedPatient.chemotherapies.length - 1].chemo_status  }}</span>
+                        <!-- <span class="display" v-if="patientId  && selectedPatient?.chemotherapies?.length">{{  selectedPatient.chemotherapies.length > 0 ? 'Yes' : 'None' }}, {{ selectedPatient.chemotherapies[selectedPatient.chemotherapies.length - 1].chemo_status  }}</span> -->
                     </p>
 
                     <p>
                         <span>Radiotherapy: </span>
-                        <span class="display" v-if="patientId  && selectedPatient?.radiotherapies?.length">{{  selectedPatient.radiotherapies.length > 0 ? 'Yes' : 'None' }}, {{ selectedPatient.radiotherapies[selectedPatient.radiotherapies.length - 1].radRx_status  }}</span>
+                        <!-- <span class="display" v-if="patientId  && selectedPatient?.radiotherapies?.length">{{  selectedPatient.radiotherapies.length > 0 ? 'Yes' : 'None' }}, {{ selectedPatient.radiotherapies[selectedPatient.radiotherapies.length - 1].radRx_status  }}</span> -->
                     </p>
 
                     <p>
                         <span>Hormonal Therapy: </span>
-                        <span class="display" v-if="patientId  && selectedPatient?.hormonals?.length">{{  selectedPatient.hormonals.length > 0 ? 'Yes' : 'None' }}, {{ selectedPatient.hormonals[selectedPatient.hormonals.length - 1].hormonal_status  }}</span>
+                        <!-- <span class="display" v-if="patientId  && selectedPatient?.hormonals?.length">{{  selectedPatient.hormonals.length > 0 ? 'Yes' : 'None' }}, {{ selectedPatient.hormonals[selectedPatient.hormonals.length - 1].hormonal_status  }}</span> -->
                     </p>
 
                 </div>
@@ -349,7 +352,7 @@ const handleClick = (href) => {
                 <div class="info-right">
                     <p>
                         <span>Patient Status: </span>
-                        <span class="display" v-if="patientId  && selectedCheckup">{{  selectedCheckup.checkup.checkup_patientStatus }}</span><span class="display" v-else></span>
+                        <!-- <span class="display" v-if="patientId  && selectedCheckup">{{  selectedCheckup.checkup.checkup_patientStatus ?? '' }}</span><span class="display" v-else></span> -->
                     </p>
 
                     <p>
