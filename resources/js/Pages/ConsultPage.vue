@@ -211,6 +211,7 @@ watch(
 );
 
 onMounted(async () => {
+    console.log('Patient ID before:', patientId);
     await fetchPatientInfo();
     await fetchPatientDiseaseProfile();
     await fetchPatientTreatmentInfo();
@@ -222,6 +223,7 @@ onMounted(async () => {
     console.log("Latest Schedule:", latest_Sched);
     console.log(isValidSched.value)
     console.log(customAlert)
+    console.log('Patient ID after:', patientId);
 });
 
 onMounted(() => {
