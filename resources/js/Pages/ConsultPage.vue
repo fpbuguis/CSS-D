@@ -317,6 +317,7 @@ const handleClick = (href) => {
 
             <div class="two-section-container">
                 <div class="info-left">
+                    <p>WAHHHHHHHHHHHHHHHHHH</p>
                     <p><span>Name: </span><span class="display" v-if="patientId">{{ patientData.lastname }}, {{ patientData.firstname }} {{ patientData.middlename }}</span></p>
                     <p><span>Age: </span><span class="display" v-if="patientId">{{ getPatientAge(patientData.birthday) }}</span></p>
                     <p><span>Diagnosis: </span>
